@@ -1,0 +1,126 @@
+*{
+    margin: 0;padding: 0;
+}
+
+.makecenter{
+    display: flex;
+    justify-content: center;
+}
+
+/* nav bar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+}
+nav ul{    
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+}
+nav ul li{
+    list-style: none;
+    font-size: 20px;
+    margin: 10px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    cursor: none;
+}
+nav ul li a:hover{
+    font-size: 25px;
+    text-decoration: underline white;
+    translate: 0px 30px;
+}
+.logo img{
+    height: 60px;
+    width: 60px;
+    margin-top: 35px;
+    margin-left: 35px;
+}
+
+/* video background and borders*/
+video{
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    object-fit: cover;
+}
+.border{
+    position: fixed;
+    background-color: white;
+    z-index: 99;
+}
+.border-top,.border-bottom{
+    height: 15px;
+    width: 100%;
+}
+.border-top{
+    top: 0px;
+}
+.border-bottom{
+    bottom: 0px;
+}
+.border-left,.border-right{
+    height: 100%;
+    width: 15px;
+}
+.border-left{
+    left: 0;
+}
+.border-right{
+    right: 0;
+}
+
+/* main information  */
+#main{
+    width: 100%;
+    height: 100%;
+    /* z-index: 9; */
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info .main-heading{
+    display: flex;
+}
+.info .main-heading h1{
+    font-size: 17vw;
+    color: white;
+    line-height: 110px;
+}
+.main-heading-desc{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.info .main-heading-desc span{
+    font-size: 1.8vw;
+    color: white;
+}
+
+
+/* footer */
+.curyear{
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    color: white;
+    z-index: 999;
+}
+.curpage{
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    margin-bottom: 30px;
+    margin-right: 50px;
+    color: white;
+    z-index: 999;
+}

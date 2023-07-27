@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&display=swap');
+
+#main,.main-shop{
+    font-family: 'Poppins', sans-serif;
+}
+footer,nav ul{
+    font-family: 'Agdasima', sans-serif;
+}
